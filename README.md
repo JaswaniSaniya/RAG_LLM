@@ -16,17 +16,7 @@ Query: Relevant chunks are retrieved and passed to OpenAI's LLM with your questi
 Response: A coherent, context-aware answer is returned via the FastAPI endpoint.
 Memory: Maintains history of user queries to support follow-up questions.
 
-🚀 Quickstart
-1. Clone the Repository
-git clone https://github.com/yourusername/rag-llm.git
-cd rag-llm
 
-2. Install Requirements
-pip install -r requirements.txt
-
-4. Set Environment Variables
-Create a .env file:
-OPENAI_API_KEY=your_openai_key_here
 
 ## 📦 Quickstart
 
@@ -37,9 +27,11 @@ git clone https://github.com/yourusername/rag-llm.git
 cd rag-llm
 
 2. ** Install Requirements ** :
+
 ```bash
 pip install -r requirements.txt
 
 3. ** Set Environment Variables** :
+
 ```bash
 OPENAI_API_KEY=your_openai_key_here
