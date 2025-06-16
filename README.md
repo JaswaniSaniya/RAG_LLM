@@ -27,3 +27,19 @@ pip install -r requirements.txt
 4. Set Environment Variables
 Create a .env file:
 OPENAI_API_KEY=your_openai_key_here
+
+## 📦 Quickstart
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/yourusername/rag-llm.git
+cd rag-llm
+
+2. ** Install Requirements ** :
+```bash
+pip install -r requirements.txt
+
+3. ** Set Environment Variables** :
+```bash
+OPENAI_API_KEY=your_openai_key_here
