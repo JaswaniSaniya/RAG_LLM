@@ -9,7 +9,6 @@ RAG-LLM is a Retrieval-Augmented Generation (RAG) system that allows users to qu
 🤖 OpenAI LLMs: Uses GPT-3.5/4 for response generation.
 📦 Embeddings + Vector Store: Retrieves relevant chunks using  Chroma.
 
-
 🛠️ How It Works
 Document Ingestion: PDFs, DOCX files are split into chunks and embedded.
 Storage: Embeddings are stored in a vector store (e.g. FAISS).
@@ -17,30 +16,14 @@ Query: Relevant chunks are retrieved and passed to OpenAI's LLM with your questi
 Response: A coherent, context-aware answer is returned via the FastAPI endpoint.
 Memory: Maintains history of user queries to support follow-up questions.
 
-git clone https://github.com/username/project-name.git
-cd project-name
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-python main.py
-
-
 🚀 Quickstart
 1. Clone the Repository
-
 git clone https://github.com/yourusername/rag-llm.git
 cd rag-llm
 
-
 2. Install Requirements
-bash
-Copy
-Edit
 pip install -r requirements.txt
-3. Set Environment Variables
-Create a .env file:
 
-ini
-Copy
-Edit
+4. Set Environment Variables
+Create a .env file:
 OPENAI_API_KEY=your_openai_key_here
