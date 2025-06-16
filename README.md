@@ -3,7 +3,9 @@ RAG-LLM is a Retrieval-Augmented Generation (RAG) system that allows users to qu
 
  FEATURES
 📄 Document Parsing: Supports loading .pdf, .docx, and other text-based formats.
+
 🔗 LangChain + LCEL: Uses LangChain Expression Language for building modular chains.
+
 🧠 Conversation Memory: Manages memory to support multi-turn Q&A interactions.
 ⚡ FastAPI Server: Exposes endpoints to interact with the agent via RESTful APIs.
 🤖 OpenAI LLMs: Uses GPT-3.5/4 for response generation.
