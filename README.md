@@ -25,13 +25,16 @@ Memory: Maintains history of user queries to support follow-up questions.
 ```bash
 git clone https://github.com/yourusername/rag-llm.git
 cd rag-llm
+```
 
-2. ** Install Requirements ** :
+2. **Install Requirements**:
 
 ```bash
 pip install -r requirements.txt
+```
 
-3. ** Set Environment Variables** :
+3. **Set Environment Variables** :
 
 ```bash
 OPENAI_API_KEY=your_openai_key_here
+```
